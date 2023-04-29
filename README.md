@@ -1,2 +1,241 @@
 # 2476
 Spring Boot3通俗易懂高薪必备【SpringBoot3从入门到项目实战】
+### 微:NoBug1024 
+
+
+课程介绍：
+
+本视频以实际项目需求入手，结合新特性@HttpExchange声明式客户端、RFC7807、ProblemDetail、预编译AOT等，详解了SpringBoot核心知识点，突出Web应用痛点解决方案。采用知识点配合项目案例的方式，让各位小伙伴轻松掌握SpringBoot。
+
+〖课程目录〗:
+
+- ├──代码  
+- |   └──JavaProject.zip  16.81M
+- ├──工具  
+- |   └──openjdk-19.0.1  
+- |   |   ├──bin  
+- |   |   ├──conf  
+- |   |   ├──include  
+- |   |   ├──jmods  
+- |   |   ├──legal  
+- |   |   ├──lib  
+- |   |   └──release  1.21kb
+- ├──视频  
+- |   ├──001-SpringBoot3课程导读.mp4  53.43M
+- |   ├──002-课程介绍.avi  59.18M
+- |   ├──003-开发环境.avi  12.44M
+- |   ├──004-JDK新特性介绍.avi  21.62M
+- |   ├──005-代替Lombok的Record.avi  21.41M
+- |   ├──006-IDEA-自定义环境.avi  95.87M
+- |   ├──007-Record-第一个Record.avi  51.86M
+- |   ├──008-Record-实例方法与静态方法.avi  28.17M
+- |   ├──009-Record-三种构造方法.avi  40.64M
+- |   ├──010-Record-Record与Lombok对比.avi  27.93M
+- |   ├──011-Record-Record实现接口.avi  21.79M
+- |   ├──012-Record-LocalRecord.avi  15.77M
+- |   ├──013-Record-嵌套Record.avi  34.35M
+- |   ├──014-Record-instanceof.avi  49.38M
+- |   ├──015-Record-总结.avi  39.57M
+- |   ├──016-Switch-箭头表达式一.avi  31.93M
+- |   ├──017-Switch-yield.avi  15.71M
+- |   ├──018-Switch-代码块和yield.avi  21.74M
+- |   ├──019-Switch-Record.avi  60.17M
+- |   ├──020-文本块-创建文本块.avi  58.23M
+- |   ├──021-文本块-方法.avi  24.81M
+- |   ├──022-文本块-总结.avi  46.32M
+- |   ├──023-var-让代码简洁.avi  27.60M
+- |   ├──024-Sealed-密闭类.avi  69.45M
+- |   ├──025-Sealed-密闭接口.avi  23.46M
+- |   ├──026-Core-什么是SpringBoot.avi  41.60M
+- |   ├──027-Core-与Spring关系.avi  42.51M
+- |   ├──028-Core-构建SpringCloud项目的基础.avi  20.03M
+- |   ├──029-Core-SpringBoo3新特性.avi  37.63M
+- |   ├──030-Core-脚手架应用.avi  101.22M
+- |   ├──031-Core-将脚手架项目导入IDEA.avi  35.75M
+- |   ├──032-Core-IDEA中使用脚手架.avi  61.94M
+- |   ├──033-Core-阿里云脚手架.avi  21.54M
+- |   ├──034-Core-单一模块.avi  40.57M
+- |   ├──035-Core-多模块.avi  21.69M
+- |   ├──036-Core-starter启动器.avi  121.04M
+- |   ├──037-Core-parent父项目.avi  72.13M
+- |   ├──038-Core-无父项目方式.avi  35.52M
+- |   ├──039-Core-核心注解.avi  158.63M
+- |   ├──040-Core-main方法运行项目.avi  25.10M
+- |   ├──041-Core-插件和jar方式.avi  148.26M
+- |   ├──042-Core-SpringBoot的jar文件和普通jar的区别.avi  49.16M
+- |   ├──043-Core-什么外部化配置.avi  61.78M
+- |   ├──044-Core-@Value读取配置数据.avi  73.71M
+- |   ├──045-Core-yml扁平化.avi  27.18M
+- |   ├──046-Core-Environment.avi  66.48M
+- |   ├──047-Core-import组织多文件.avi  63.71M
+- |   ├──048-Core-多环境准备环境文件.avi  73.94M
+- |   ├──049-Core-单元测试多环境.avi  14.78M
+- |   ├──050-Core-外部化配置总结.avi  43.09M
+- |   ├──051-Core-第一个绑定Bean.avi  46.33M
+- |   ├──052-Core-注意事项.avi  25.30M
+- |   ├──053-Core-嵌套Bean.avi  54.36M
+- |   ├──054-Core-启用和扫描注解.avi  36.50M
+- |   ├──055-Core-绑定第三方对象.avi  35.48M
+- |   ├──056-Core-绑定Map-List-Array.avi  72.38M
+- |   ├──057-Core-指定数据源.avi  45.70M
+- |   ├──058-Core-外部化配置总结.avi  41.53M
+- |   ├──059-Core-ImportResource.avi  43.27M
+- |   ├──060-Core-AOP.avi  96.70M
+- |   ├──061-自动配置-作用.avi  63.06M
+- |   ├──062-自动配置-imports文件.avi  54.74M
+- |   ├──063-自动配置-启用自动配置注解.avi  84.98M
+- |   ├──064-自动配置-分析自动配置类.avi  134.14M
+- |   ├──065-自动配置-笔记.avi  9.75M
+- |   ├──066-JdbcTemplate-自动配置.avi  56.88M
+- |   ├──067-JdbcTemplate-创建数据库和SQL脚本.avi  118.67M
+- |   ├──068-JdbcTemplate-queryForObject.avi  69.02M
+- |   ├──069-JdbcTemplate-单行记录.avi  35.23M
+- |   ├──070-JdbcTemplate-自定义RowMapper.avi  81.70M
+- |   ├──071-JdbcTemplate-多行查询queryForList.avi  49.40M
+- |   ├──072-JdbcTemplate-更新与添加update.avi  23.94M
+- |   ├──073-JdbcTemplate-命名参数.avi  44.67M
+- |   ├──074-JdbcTemplate-多表定制.avi  136.86M
+- |   ├──075-MyBatis-查询@Select-@Results.avi  116.64M
+- |   ├──076-MyBatis-新增@Insert.avi  43.29M
+- |   ├──077-MyBatis-更新@Update.avi  24.51M
+- |   ├──078-MyBatis-删除@Delete.avi  18.28M
+- |   ├──079-MyBatis-注解的总结一.avi  17.92M
+- |   ├──080-MyBatis-结果映射@ResultMap.avi  73.93M
+- |   ├──081-MyBatis-结果映射xml.avi  41.68M
+- |   ├──082-MyBatis-SqlProvider.avi  72.01M
+- |   ├──083-MyBatis-其他提供者.avi  62.08M
+- |   ├──084-MyBatis-一对一.avi  106.17M
+- |   ├──085-MyBatis-一对多.avi  71.52M
+- |   ├──086-MyBatis-常用设置和自动配置.avi  61.00M
+- |   ├──087-MyBatis-连接池设置.avi  54.25M
+- |   ├──088-事务-概述.avi  31.48M
+- |   ├──089-事务-准备事务测试环境.avi  151.76M
+- |   ├──090-事务-事务注解.avi  51.98M
+- |   ├──091-事务-无效的事务1.avi  58.51M
+- |   ├──092-事务-无效的事务2.avi  64.17M
+- |   ├──093-事务-事务回滚规则.avi  12.70M
+- |   ├──094-事务-MyBatis总结.avi  76.08M
+- |   ├──095-Web-内容介绍.avi  23.04M
+- |   ├──096-Web-MVC架构.avi  57.25M
+- |   ├──097-Web-快速创建Web应用.avi  104.97M
+- |   ├──098-Web-视图.avi  111.65M
+- |   ├──099-Web-favicon.avi  28.25M
+- |   ├──100-Web-控制器方法.avi  130.70M
+- |   ├──101-Web-路径Path-1.avi  96.66M
+- |   ├──102-Web-路径Path-2.avi  26.54M
+- |   ├──103-Web-路径Path-3.avi  13.54M
+- |   ├──104-Web-路径Path-4.avi  34.33M
+- |   ├──105-Web-路径Path-5.avi  29.51M
+- |   ├──106-Web-唯一路径.avi  9.79M
+- |   ├──107-Web-@RequestMapping.avi  17.57M
+- |   ├──108-Web-控制方法参数类型和返回值类型列表.avi  71.46M
+- |   ├──109-Web-逐一接收参数.avi  46.57M
+- |   ├──110-Web-对象接收参数.avi  64.86M
+- |   ├──111-Web-HttpServletRequest对象接收参数.avi  46.72M
+- |   ├──112-Web-@RequestParam.avi  35.36M
+- |   ├──113-Web-@RequestHeader.avi  12.41M
+- |   ├──114-Web-@RequestBody接收json格.avi  36.62M
+- |   ├──115-Web-IO读取post请求体.avi  29.86M
+- |   ├──116-Web-数组参数.avi  19.00M
+- |   ├──117-Web-BeanValidation.avi  241.24M
+- |   ├──118-Web-分组验证.avi  60.71M
+- |   ├──119-Web-验证自动配置类.avi  17.34M
+- |   ├──120-Web-Model数据.avi  21.63M
+- |   ├──121-Web-页面视图.avi  28.80M
+- |   ├──122-Web-JSON视图.avi  31.74M
+- |   ├──123-Web-自定义状态码.avi  39.59M
+- |   ├──124-Web-总结MVC.avi  67.06M
+- |   ├──125-Web-中央调度器.avi  49.99M
+- |   ├──126-Web-简化的SpringMVC请求过程.avi  22.62M
+- |   ├──127-Web-静态代码分析.avi  152.15M
+- |   ├──128-Web-Debug执行请求.avi  83.72M
+- |   ├──129-Web-SpringMVC自动配置类.avi  61.98M
+- |   ├──130-Web-自动配置中央调度器.avi  53.28M
+- |   ├──131-Web-自动配置HandlerMapping等支持类.avi  73.84M
+- |   ├──132-Web-自动配置Web服务器.avi  69.34M
+- |   ├──133-Web-配置服务器.avi  34.39M
+- |   ├──134-Web-配置DispatcherServlet和日期格式.avi  51.97M
+- |   ├──135-Web-自动配置总结.avi  56.58M
+- |   ├──136-Web-注解方式创建HttpServlet.avi  59.19M
+- |   ├──137-Web-编码方式创建HttpServelt.avi  25.10M
+- |   ├──138-Web-过滤器作用和创建.avi  52.62M
+- |   ├──139-Web-控制Filter执行顺序-1.avi  26.67M
+- |   ├──140-Web-控制Filter执行顺序-2.avi  26.57M
+- |   ├──141-Web-使用内置过滤器.avi  32.66M
+- |   ├──142-Web-Listener了解.avi  8.96M
+- |   ├──143-Web-JavaConfig定制SpringMVC.avi  26.95M
+- |   ├──144-Web-WebMvcConfigurer-页面控制器.avi  50.55M
+- |   ├──145-Web-WebMvcConfigurer-自定义Formatter.avi  108.49M
+- |   ├──146-Web-WebMvcConfigurer-拦截介绍.avi  32.90M
+- |   ├──147-Web-WebMvcConfigurer-权限拦截器.avi  90.72M
+- |   ├──148-Web-WebMvcConfigurer-多拦截器和order.avi  67.43M
+- |   ├──149-Web-上传文件解析器-.avi  33.93M
+- |   ├──150-Web-上传文件的前端页面和Controller.avi  69.03M
+- |   ├──151-Web-上传文件错误页面.avi  70.76M
+- |   ├──152-Web-Servlet规范.avi  80.02M
+- |   ├──153-Web-多文件上传.avi  15.34M
+- |   ├──154-Web-怎么做异常处理.avi  23.22M
+- |   ├──155-Web-全局异常处理器.avi  136.71M
+- |   ├──156-Web-异常处理返回数据.avi  21.10M
+- |   ├──157-Web-JSR303全局异常处理思路.avi  46.43M
+- |   ├──158-Web-JSR303全局异常处理.avi  107.37M
+- |   ├──159-Web-RFC7807.avi  86.45M
+- |   ├──160-Web-Spring增强ProblemDetail.avi  47.52M
+- |   ├──161-Web-ProblemDetail.avi  103.85M
+- |   ├──162-Web-测试异常.avi  39.29M
+- |   ├──163-Web-ProblemDetail自定义字段.avi  19.86M
+- |   ├──164-Web-ErrorResponse.avi  46.55M
+- |   ├──165-Web-自定义异常类.avi  98.69M
+- |   ├──166-Web-总结.avi  143.20M
+- |   ├──167-HttpExchange-新的服务注解.avi  70.26M
+- |   ├──168-HttpExchange-GET访问.avi  96.11M
+- |   ├──169-HttpExchange-POST访问.avi  30.28M
+- |   ├──170-HttpExchange-PUT修改.avi  35.45M
+- |   ├──171-HttpExchange-DELETE删除.avi  20.40M
+- |   ├──172-HttpExchange-服务方法参数和返回值定义规格.avi  45.22M
+- |   ├──173-HttpExchange-组合注解.avi  46.84M
+- |   ├──174-HttpExchange-JavaRecord.avi  23.14M
+- |   ├──175-HttpExchange-定制代理-超时.avi  102.48M
+- |   ├──176-Thymeleaf-模板引擎.avi  21.30M
+- |   ├──177-Thymeleaf-变量表达式和链接表达式.avi  111.72M
+- |   ├──178-Thymeleaf-if语句和for语句.avi  76.21M
+- |   ├──179-Thymeleaf-默认配置.avi  19.90M
+- |   ├──180-项目-规划配置.avi  69.99M
+- |   ├──181-项目-首页文章功能的VO-PO-Mapper-Service-Controller.avi  138.46M
+- |   ├──182-项目-首页展示热点文章.avi  55.12M
+- |   ├──183-项目-增加功能按钮.avi  20.79M
+- |   ├──184-项目-页面视图控制器.avi  50.57M
+- |   ├──185-项目-发布文章.avi  224.34M
+- |   ├──186-项目-测试JSR303异常处理器.avi  12.11M
+- |   ├──187-项目-按主键查询文章.avi  96.79M
+- |   ├──188-项目-修改文章逻辑代码.avi  59.66M
+- |   ├──189-项目-测试修改文章.avi  17.04M
+- |   ├──190-项目-获取删除文章的ID.avi  37.80M
+- |   ├──191-项目-删除文章逻辑代码.avi  116.69M
+- |   ├──192-项目-删除一个文章.avi  4.08M
+- |   ├──193-项目-删除多个文章.avi  4.75M
+- |   ├──194-项目-ajax请求.avi  88.92M
+- |   ├──195-项目-模块功能总结.avi  14.28M
+- |   ├──196-AOT-AOT和NativeImage.avi  75.46M
+- |   ├──197-AOT-NativeImage工具.avi  24.02M
+- |   ├──198-AOT-GraalVM.avi  17.92M
+- |   ├──199-AOT-GraalVM包含镜像构建工具.avi  30.81M
+- |   └──200-课程-结束.avi  8.25M
+- └──资料  
+- |   ├──icon  
+- |   |   └──favicon.ico  4.19kb
+- |   ├──笔记  
+- |   |   ├──01-自动配置类.png  45.62kb
+- |   |   ├──02-自动配置.png  77.25kb
+- |   |   ├──03-自动配置全.png  82.56kb
+- |   |   ├──04-简化的SpringMVC请求过程.png  31.36kb
+- |   |   ├──04-自动配置原始文件.drawio  4.40kb
+- |   |   ├──05-AOT.png  52.24kb
+- |   |   └──05-SpringMVC请求流程.drawio  1.80kb
+- |   ├──图片  
+- |   |   ├──a.gif  5.17kb
+- |   |   ├──b.gif  87.36kb
+- |   |   ├──c.gif  751.64kb
+- |   |   ├──p1.jpeg  177.96kb
+- |   |   └──p2.jpeg  52.97kb
+- |   └──动力节点-SpringBoot3.pdf  4.44M
